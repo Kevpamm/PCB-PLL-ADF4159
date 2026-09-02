@@ -417,6 +417,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -429,7 +437,7 @@
         "uuid": "ccc941d0-d822-4fa9-96cd-b6048d9ff0d8"
       }
     ],
-    "used_designators": "#PWR1-15,D1,R1-10,#FLG1-3,J1-2,U1-4,C1-8,XTAL1,FB1",
+    "used_designators": "#PWR1-37,D1,R1-32,#FLG1-5,J1-2,U1-6,C1-24,XTAL1,FB1,CLK_DATA_LE_from_external_microcontroller1,External_VCO_RF1,SMA_For_External_REF_1",
     "variants": []
   },
   "sheets": [
@@ -442,16 +450,16 @@
       "Power Supply"
     ],
     [
-      "d78d87b9-90b2-4360-81e5-b84c1d48e903",
-      "Reference Oscillator"
-    ],
-    [
       "a8539d7e-7780-43a2-aa11-dfda6f33ad6e",
-      "ADF4159 (R counter + N Divider + PFD)"
+      "ADF4159"
     ],
     [
       "66805e09-1d2b-4f9e-af12-b2b5631c7392",
       "Loop Filter"
+    ],
+    [
+      "d78d87b9-90b2-4360-81e5-b84c1d48e903",
+      "Reference Oscillator"
     ]
   ],
   "text_variables": {},
