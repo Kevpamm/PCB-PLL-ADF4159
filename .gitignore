@@ -1,0 +1,17 @@
+# Local editor history
+/.history/
+
+# KiCad local settings and lock files
+*.kicad_prl
+~*.lck
+
+# KiCad backups
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*-backups/
+
+# Git ignores: KiCad automatic backup files
+*-backup/*
+
+# Git ignores: KiCad cache files
+fp-info-cache
