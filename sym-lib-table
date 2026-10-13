@@ -1,0 +1,10 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "ADF4159CCPZ") (type "KiCad") (uri "${KIPRJMOD}/symbols/ADF4159CCPZ.kicad_sym") (options "") (descr ""))
+	(lib (name "ADP150AUJZ_1.8V_5_leads") (type "KiCad") (uri "${KIPRJMOD}/symbols/ADP150AUJZ-1.8-R7.kicad_sym") (options "") (descr ""))
+	(lib (name "CWX813-100.0M") (type "KiCad") (uri "${KIPRJMOD}/symbols/CWX813-100.0M.kicad_sym") (options "") (descr ""))
+	(lib (name "ADP150AUJZ_3.0V_5_leads") (type "KiCad") (uri "${KIPRJMOD}/symbols/ADP150AUJZ-3.0-R7.kicad_sym") (options "") (descr ""))
+	(lib (name "ADP150AUJZ_3.3_5_leads") (type "KiCad") (uri "${KIPRJMOD}/symbols/ADP150AUJZ-3.3-R7.kicad_sym") (options "") (descr ""))
+	(lib (name "LT3045IMSE_PBF") (type "KiCad") (uri "${KIPRJMOD}/symbols/LT3045IMSE_PBF.kicad_sym") (options "") (descr ""))
+	(lib (name "RRA78610-QAJ") (type "KiCad") (uri "${KIPRJMOD}/symbols/RRA78610-QAJ.kicad_sym") (options "") (descr ""))
+)

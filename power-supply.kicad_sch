@@ -39,7 +39,7 @@
 					)
 				)
 			)
-			(property "Footprint" "UJ_5_ADI"
+			(property "Footprint" "ADP150-1V8:UJ_5_ADI-L"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -227,7 +227,9 @@
 						)
 					)
 				)
-				(pin output line
+			)
+			(symbol "ADP150AUJZ-1.8-R7_1_1"
+				(pin power_out line
 					(at 55.88 0 180)
 					(length 7.62)
 					(name "VOUT"
@@ -248,7 +250,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ADP150AUJZ_3.3V_5_leads:ADP150AUJZ-3.3-R7"
+		(symbol "ADP150AUJZ_3.0V_5_leads:ADP150AUJZ-3.0-R7"
 			(pin_names
 				(offset 0.254)
 			)
@@ -263,245 +265,7 @@
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "ADP150AUJZ-3.3-R7"
-				(at 27.94 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "UJ_5_ADI"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADP150.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "ADP150AUJZ-3.3-R7"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "UJ_5_ADI UJ_5_ADI-M UJ_5_ADI-L"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "ADP150AUJZ-3.3-R7_0_1"
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -10.16) (xy 48.26 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 48.26 5.08) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 48.26 -10.16) (xy 48.26 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at 0 0 0)
-					(length 7.62)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -2.54 0)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 55.88 -5.08 180)
-					(length 7.62)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 55.88 -2.54 180)
-					(length 7.62)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 55.88 0 180)
-					(length 7.62)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "ADP150AUJZ_5_leads:ADP150AUJZ-3.0-R7"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 27.94 10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
+						(size 0.889 0.889)
 					)
 				)
 			)
@@ -511,11 +275,11 @@
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 0.889 0.889)
 					)
 				)
 			)
-			(property "Footprint" "UJ_5_ADI"
+			(property "Footprint" "ADP150-3V:UJ_5_ADI-L"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -631,7 +395,63 @@
 						(type none)
 					)
 				)
+				(pin power_in line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin input line
+					(at 55.88 -5.08 180)
+					(length 7.62)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 55.88 -2.54 180)
+					(length 7.62)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ADP150AUJZ-3.0-R7_1_1"
+				(pin power_in line
 					(at 0 0 0)
 					(length 7.62)
 					(name "VIN"
@@ -647,6 +467,172 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+				(pin power_out line
+					(at 55.88 0 180)
+					(length 7.62)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ADP150AUJZ_3.3_5_leads:ADP150AUJZ-3.3-R7"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 27.94 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "ADP150AUJZ-3.3-R7"
+				(at 27.94 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "ADP150-3V3:UJ_5_ADI-L"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADP150.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "ADP150AUJZ-3.3-R7"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "UJ_5_ADI UJ_5_ADI-M UJ_5_ADI-L"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ADP150AUJZ-3.3-R7_0_1"
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -10.16) (xy 48.26 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 48.26 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 48.26 -10.16) (xy 48.26 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin power_in line
@@ -703,7 +689,27 @@
 						)
 					)
 				)
-				(pin output line
+			)
+			(symbol "ADP150AUJZ-3.3-R7_1_1"
+				(pin power_in line
+					(at 0 0 0)
+					(length 7.62)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
 					(at 55.88 0 180)
 					(length 7.62)
 					(name "VOUT"
@@ -1068,7 +1074,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LT3045EMSE_PBF:LT3045EMSE_PBF"
+		(symbol "LT3045IMSE_PBF:LT3045IMSE_PBF"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1077,27 +1083,29 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U1"
-				(at 0 17.78 0)
+			(property "Reference" "U"
+				(at -10.16 13.208 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 0.889 0.889)
+						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "LT3045EMSE_PBF_5.5V"
-				(at 0 15.24 0)
+			(property "Value" "LT3045IMSE_PBF"
+				(at -10.16 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 0.889 0.889)
+						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" "LT3045EMSE_PBF:SOP65P490X110-13N"
+			(property "Footprint" "LT3045EMSE-5V5:MSOP12_MSE_ADI-L"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1109,7 +1117,7 @@
 					(justify bottom)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/lt3045.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1120,7 +1128,7 @@
 					)
 				)
 			)
-			(property "Description" "20V, 500mA, Ultralow Noise, Ultrahigh PSRR Linear Regulator"
+			(property "Description" "Linear Voltage Regulator IC Positive Programmable 1 Output  500mA 12-MSOP-EP"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1180,7 +1188,7 @@
 					(justify bottom)
 				)
 			)
-			(property "Check_prices" "https://www.snapeda.com/parts/LT3045EMSE%23PBF/Analog+Devices/view-part/?ref=eda"
+			(property "Check_prices" "https://www.snapeda.com/parts/LT3045IMSE%23PBF/Analog+Devices/view-part/?ref=eda"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1216,7 +1224,7 @@
 					(justify bottom)
 				)
 			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/LT3045EMSE%23PBF/Analog+Devices/view-part/?ref=snap"
+			(property "DUPLICATE" "LT3045HMSE#PBF-,-LT3045EMSE#WPBF-,-LT3045IMSE#WPBF-,-LT3045HMSE#WPBF-,-LT3045EMSE#TRPBF-,-LT3045IMSE#TRPBF-,-LT3045HMSE#TRPBF-,-LT3045EMSE#WTRPBF-,-LT3045IMSE#WTRPBF-,-LT3045HMSE#WTRPBF"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1228,7 +1236,31 @@
 					(justify bottom)
 				)
 			)
-			(property "MP" "LT3045EMSE#PBF"
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/LT3045IMSE%23PBF/Analog+Devices/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "LT3045IMSE#PBF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=870617&manufacturer=Analog Devices&part_name=LT3045IMSE#PBF&search_term=lt3045"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1264,7 +1296,7 @@
 					(justify bottom)
 				)
 			)
-			(symbol "LT3045EMSE_PBF_0_0"
+			(symbol "LT3045IMSE_PBF_0_0"
 				(rectangle
 					(start -10.16 12.7)
 					(end 10.16 -12.7)
@@ -1274,62 +1306,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-				(pin input line
-					(at -15.24 10.16 0)
-					(length 5.08)
-					(name "IN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 10.16 0)
-					(length 5.08)
-					(hide yes)
-					(name "IN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 10.16 0)
-					(length 5.08)
-					(hide yes)
-					(name "IN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
 					)
 				)
 				(pin input line
@@ -1404,24 +1380,6 @@
 						)
 					)
 				)
-				(pin input line
-					(at -15.24 -2.54 0)
-					(length 5.08)
-					(name "SET"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at 15.24 -10.16 180)
 					(length 5.08)
@@ -1468,7 +1426,7 @@
 							)
 						)
 					)
-					(number "13"
+					(number "EPAD"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1477,7 +1435,81 @@
 					)
 				)
 			)
-			(symbol "LT3045EMSE_PBF_1_0"
+			(symbol "LT3045IMSE_PBF_1_0"
+				(pin input line
+					(at -15.24 10.16 0)
+					(length 5.08)
+					(name "IN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 10.16 0)
+					(length 5.08)
+					(hide yes)
+					(name "IN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 10.16 0)
+					(length 5.08)
+					(hide yes)
+					(name "IN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -2.54 0)
+					(length 5.08)
+					(name "SET"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
 				(pin power_out line
 					(at 15.24 10.16 180)
 					(length 5.08)
@@ -1648,6 +1680,12 @@
 		(uuid "e7716dc2-64d7-4808-bff8-16124ce3c6cf")
 	)
 	(junction
+		(at 57.15 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ac31de8-2357-4838-8c5f-c8ab1b4eca25")
+	)
+	(junction
 		(at 95.25 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1676,12 +1714,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e48588e-9aa6-49b1-b668-976074ec135f")
-	)
-	(junction
-		(at 57.15 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7394681b-db0d-4d5c-a20d-a9b175f4cab9")
 	)
 	(junction
 		(at 57.15 82.55)
@@ -1726,6 +1758,12 @@
 		(uuid "a0dd514d-528b-401e-b9a1-a0dd60a6c98b")
 	)
 	(junction
+		(at 173.99 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5e27f25-474a-4c21-9776-8d1756419c1a")
+	)
+	(junction
 		(at 165.1 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1736,6 +1774,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dec315f5-38c2-4256-ba0d-e47dc60fe43b")
+	)
+	(junction
+		(at 172.72 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4199706-d177-45b3-87f0-1f9d665aee49")
+	)
+	(junction
+		(at 176.53 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eaa1cc70-753d-46ca-96d9-aa81535c3805")
 	)
 	(junction
 		(at 72.39 118.11)
@@ -1851,23 +1901,13 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 17.78) (xy 148.59 39.37)
+			(xy 148.59 19.05) (xy 148.59 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2fb18f87-9957-4b47-a83d-e2c679e0f80d")
-	)
-	(wire
-		(pts
-			(xy 135.89 102.87) (xy 168.91 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "312ba913-9301-4ed3-ac77-0ecfa8128d50")
 	)
 	(wire
 		(pts
@@ -1881,7 +1921,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 118.11) (xy 102.87 118.11)
+			(xy 57.15 118.11) (xy 104.14 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1951,6 +1991,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 83.82) (xy 176.53 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51de9353-1a32-491e-92af-14223f512ebf")
+	)
+	(wire
+		(pts
 			(xy 138.43 44.45) (xy 140.97 44.45)
 		)
 		(stroke
@@ -1971,7 +2021,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 120.65) (xy 101.6 120.65)
+			(xy 104.14 120.65) (xy 101.6 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2001,7 +2051,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 31.75) (xy 95.25 17.78)
+			(xy 95.25 31.75) (xy 95.25 19.05)
 		)
 		(stroke
 			(width 0)
@@ -2051,6 +2101,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 165.1) (xy 172.72 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63fd6d59-cac5-4439-befe-5d766366ae6e")
+	)
+	(wire
+		(pts
 			(xy 92.71 157.48) (xy 92.71 156.21)
 		)
 		(stroke
@@ -2071,7 +2131,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 102.87) (xy 128.27 102.87)
+			(xy 72.39 102.87) (xy 168.91 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2101,16 +2161,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 138.43) (xy 167.64 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "727d1432-b0dc-4570-baa9-12cc831f6350")
-	)
-	(wire
-		(pts
 			(xy 160.02 82.55) (xy 193.04 82.55)
 		)
 		(stroke
@@ -2121,7 +2171,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 175.26) (xy 128.27 175.26)
+			(xy 72.39 175.26) (xy 168.91 175.26)
 		)
 		(stroke
 			(width 0)
@@ -2131,7 +2181,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 123.19) (xy 167.64 123.19)
+			(xy 160.02 123.19) (xy 168.91 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2171,7 +2221,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 123.19) (xy 167.64 138.43)
+			(xy 168.91 123.19) (xy 168.91 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2251,6 +2301,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 91.44) (xy 176.53 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c0295bc-840e-4cdd-b1b7-f41b7cb019c3")
+	)
+	(wire
+		(pts
 			(xy 92.71 82.55) (xy 104.14 82.55)
 		)
 		(stroke
@@ -2268,16 +2328,6 @@
 			(type default)
 		)
 		(uuid "9eb58696-50ba-4adc-b78c-e7654e48b0ae")
-	)
-	(wire
-		(pts
-			(xy 135.89 175.26) (xy 168.91 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1433956-e212-48a8-872e-869256b95ef0")
 	)
 	(wire
 		(pts
@@ -2331,6 +2381,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 127) (xy 173.99 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3d66662-7a93-4725-9687-15e56ae4c710")
+	)
+	(wire
+		(pts
 			(xy 148.59 39.37) (xy 138.43 39.37)
 		)
 		(stroke
@@ -2351,7 +2411,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 34.29) (xy 95.25 34.29)
+			(xy 95.25 34.29) (xy 107.95 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2381,7 +2441,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 138.43) (xy 125.73 138.43)
+			(xy 72.39 138.43) (xy 168.91 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2421,6 +2481,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 119.38) (xy 173.99 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc201221-a1c6-412c-8a5d-ccdbadd209d3")
+	)
+	(wire
+		(pts
 			(xy 72.39 156.21) (xy 92.71 156.21)
 		)
 		(stroke
@@ -2431,7 +2501,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 17.78) (xy 148.59 17.78)
+			(xy 95.25 19.05) (xy 148.59 19.05)
 		)
 		(stroke
 			(width 0)
@@ -2441,23 +2511,13 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 118.11) (xy 193.04 118.11)
+			(xy 160.02 118.11) (xy 193.04 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e5171971-1c79-4a14-b089-5523b3ffb2fa")
-	)
-	(wire
-		(pts
-			(xy 105.41 34.29) (xy 107.95 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e81fa39c-c3c7-4cf9-9347-cdeee0a4eca2")
 	)
 	(wire
 		(pts
@@ -2488,6 +2548,16 @@
 			(type default)
 		)
 		(uuid "f03d5bcc-7a33-441f-ba4d-f866e7b667d0")
+	)
+	(wire
+		(pts
+			(xy 172.72 157.48) (xy 172.72 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4273cae-c5fe-4864-9ca5-fb5bef40f32c")
 	)
 	(hierarchical_label "1.8V"
 		(shape output)
@@ -2551,8 +2621,8 @@
 		(uuid "eb6e69ce-6816-4814-aa2c-26ae1fc46338")
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 102.87 162.56 0)
+		(lib_id "ADP150AUJZ_3.3_5_leads:ADP150AUJZ-3.3-R7")
+		(at 104.14 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2560,11 +2630,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e6ce247-b0ca-4638-bdd3-e3a44e2cc086")
-		(property "Reference" "#PWR07"
-			(at 102.87 168.91 0)
-			(hide yes)
+		(uuid "01c0b5c6-90d1-49bc-bd90-aa3948cf3eae")
+		(property "Reference" "U2"
+			(at 132.08 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2573,8 +2641,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 102.87 167.64 0)
+		(property "Value" "ADP150AUJZ-3.3-R7"
+			(at 132.08 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2583,30 +2651,32 @@
 				)
 			)
 		)
-		(property "Footprint" "UJ_5_ADI"
-			(at 102.87 162.56 0)
+		(property "Footprint" "ADP150-3V3:UJ_5_ADI-L"
+			(at 104.14 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 102.87 162.56 0)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADP150.pdf"
+			(at 104.14 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 102.87 162.56 0)
+		(property "Description" ""
+			(at 104.14 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2617,12 +2687,178 @@
 			)
 		)
 		(pin "1"
-			(uuid "3a56f44d-d433-49f2-a009-170f6ddf18c6")
+			(uuid "fab991f7-5721-4611-a099-0527eadf3065")
+		)
+		(pin "3"
+			(uuid "2edce8ce-a00e-4a49-af6c-1df221ba280d")
+		)
+		(pin "2"
+			(uuid "7826c6b8-2ef0-48fe-b57a-5cddac190e22")
+		)
+		(pin "4"
+			(uuid "7544332b-d10d-45f0-8f4e-134b1eb71f5b")
+		)
+		(pin "5"
+			(uuid "8f61cdaf-7f54-48d4-8254-266a0c3c9b81")
 		)
 		(instances
 			(project "PLL-ADF4159"
 				(path "/ccc941d0-d822-4fa9-96cd-b6048d9ff0d8/23903c4a-e3b9-4f7b-8166-b7e2038524a1"
-					(reference "#PWR07")
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 172.72 168.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "20fcf1fa-4df1-47e0-9ebe-8b923d3bf2a9")
+		(property "Reference" "#PWR038"
+			(at 172.72 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.974 173.228 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 172.72 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5bed3ab0-a3ff-4040-9c3c-fcc5aabe0663")
+		)
+		(instances
+			(project "PLL-ADF4159"
+				(path "/ccc941d0-d822-4fa9-96cd-b6048d9ff0d8/23903c4a-e3b9-4f7b-8166-b7e2038524a1"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 176.53 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "22913e7a-bb21-4a7a-8055-c7c9ce01c489")
+		(property "Reference" "#PWR015"
+			(at 176.53 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 176.784 99.568 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 176.53 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "be9b81b4-4b23-4228-9987-d191f7fd10d7")
+		)
+		(instances
+			(project "PLL-ADF4159"
+				(path "/ccc941d0-d822-4fa9-96cd-b6048d9ff0d8/23903c4a-e3b9-4f7b-8166-b7e2038524a1"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -2640,7 +2876,7 @@
 		(dnp no)
 		(uuid "2f910fa1-cafb-4932-adfb-fa1f879b2282")
 		(property "Reference" "C4"
-			(at 87.122 86.36 0)
+			(at 86.36 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2650,8 +2886,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
-			(at 87.122 88.138 0)
+		(property "Value" "4.7uF"
+			(at 85.09 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2731,8 +2967,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
-			(at 87.122 161.798 0)
+		(property "Value" "4.7uF"
+			(at 86.36 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2821,7 +3057,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 96.266 49.784 90)
 			(hide yes)
 			(show_name no)
@@ -2891,8 +3127,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
-			(at 87.122 123.698 0)
+		(property "Value" "4.7uF"
+			(at 86.36 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2952,7 +3188,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 102.87 88.9 0)
+		(at 173.99 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2960,10 +3196,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "74a756e4-34d2-48d5-9acf-cd5b564a3a71")
-		(property "Reference" "#PWR010"
-			(at 102.87 95.25 0)
+		(uuid "6c38ebac-8fe0-458c-b9ad-1507d4353182")
+		(property "Reference" "#PWR029"
+			(at 173.99 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2974,7 +3209,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 102.87 93.98 0)
+			(at 174.244 135.128 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2983,8 +3218,8 @@
 				)
 			)
 		)
-		(property "Footprint" "UJ_5_ADI"
-			(at 102.87 88.9 0)
+		(property "Footprint" ""
+			(at 173.99 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2995,7 +3230,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 88.9 0)
+			(at 173.99 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3006,7 +3241,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 102.87 88.9 0)
+			(at 173.99 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3017,12 +3252,90 @@
 			)
 		)
 		(pin "1"
-			(uuid "4b90dd41-51b0-4fe3-8461-c071f67d5a6e")
+			(uuid "ff4d2917-0245-4bc0-9348-28323537aae3")
 		)
 		(instances
 			(project "PLL-ADF4159"
 				(path "/ccc941d0-d822-4fa9-96cd-b6048d9ff0d8/23903c4a-e3b9-4f7b-8166-b7e2038524a1"
-					(reference "#PWR010")
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 102.87 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "772d8665-a518-4022-bee6-eb84dc050053")
+		(property "Reference" "#PWR07"
+			(at 102.87 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 167.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 102.87 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bea803b0-321d-4607-8596-1809262563b5")
+		)
+		(instances
+			(project "PLL-ADF4159"
+				(path "/ccc941d0-d822-4fa9-96cd-b6048d9ff0d8/23903c4a-e3b9-4f7b-8166-b7e2038524a1"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -3061,7 +3374,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 84.7852 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -3110,6 +3423,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 102.87 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7cd56ad0-05ca-4126-a577-1adaccecb274")
+		(property "Reference" "#PWR01"
+			(at 102.87 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 102.87 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b68d0f89-6ed1-4056-9030-08724488cc64")
+		)
+		(instances
+			(project "PLL-ADF4159"
+				(path "/ccc941d0-d822-4fa9-96cd-b6048d9ff0d8/23903c4a-e3b9-4f7b-8166-b7e2038524a1"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 105.41 50.8 0)
 		(unit 1)
@@ -3142,7 +3533,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 106.3752 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -3185,164 +3576,6 @@
 			(project "PLL-ADF4159"
 				(path "/ccc941d0-d822-4fa9-96cd-b6048d9ff0d8/23903c4a-e3b9-4f7b-8166-b7e2038524a1"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 132.08 175.26 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "86043180-bede-4130-9ca7-e680b8354bcb")
-		(property "Reference" "R5"
-			(at 132.08 171.196 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 132.08 172.72 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.334 174.244 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 132.08 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "661a4087-6696-4319-b630-49891d3282e5")
-		)
-		(pin "2"
-			(uuid "abdb5efd-d0bb-4dfd-bb01-9fd50ff1eba4")
-		)
-		(instances
-			(project "PLL-ADF4159"
-				(path "/ccc941d0-d822-4fa9-96cd-b6048d9ff0d8/23903c4a-e3b9-4f7b-8166-b7e2038524a1"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 101.6 34.29 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8cb0bac9-2437-457e-8d35-36b2b10825c7")
-		(property "Reference" "R1"
-			(at 101.6 36.322 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 101.6 37.846 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 101.854 33.274 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 101.6 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f5e67262-e6e2-4657-9905-696895ead94d")
-		)
-		(pin "2"
-			(uuid "a6cefc98-e847-4191-85aa-2f2979a4c0fb")
-		)
-		(instances
-			(project "PLL-ADF4159"
-				(path "/ccc941d0-d822-4fa9-96cd-b6048d9ff0d8/23903c4a-e3b9-4f7b-8166-b7e2038524a1"
-					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -3420,84 +3653,6 @@
 			(project "PLL-ADF4159"
 				(path "/ccc941d0-d822-4fa9-96cd-b6048d9ff0d8/23903c4a-e3b9-4f7b-8166-b7e2038524a1"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 101.6 124.46 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "955b48da-e50c-4594-afd0-4681bc33750b")
-		(property "Reference" "#PWR08"
-			(at 101.6 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 101.6 129.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Footprint" "UJ_5_ADI"
-			(at 101.6 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bf6f2864-9af5-4e78-9c06-4ba76d7f887f")
-		)
-		(instances
-			(project "PLL-ADF4159"
-				(path "/ccc941d0-d822-4fa9-96cd-b6048d9ff0d8/23903c4a-e3b9-4f7b-8166-b7e2038524a1"
-					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -3766,7 +3921,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 144.526 45.466 90)
 			(hide yes)
 			(show_name no)
@@ -3815,6 +3970,96 @@
 		)
 	)
 	(symbol
+		(lib_id "ADP150AUJZ_3.0V_5_leads:ADP150AUJZ-3.0-R7")
+		(at 104.14 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a05a4f36-ee09-485a-950b-06d636a2e21a")
+		(property "Reference" "U3"
+			(at 132.08 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Value" "ADP150AUJZ-3.0-R7"
+			(at 132.08 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "ADP150-3V:UJ_5_ADI-L"
+			(at 104.14 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADP150.pdf"
+			(at 104.14 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "76533085-01ec-49dc-a529-fb28c90b9554")
+		)
+		(pin "1"
+			(uuid "4208b525-2675-485f-9b21-4fa11adbd605")
+		)
+		(pin "2"
+			(uuid "08ad6543-9910-49a5-ae93-66745986f7fe")
+		)
+		(pin "3"
+			(uuid "056e90a8-de7d-489b-a71b-1b6c2854a16b")
+		)
+		(pin "5"
+			(uuid "a96c574d-c589-45dc-a795-2059b71d0cad")
+		)
+		(instances
+			(project "PLL-ADF4159"
+				(path "/ccc941d0-d822-4fa9-96cd-b6048d9ff0d8/23903c4a-e3b9-4f7b-8166-b7e2038524a1"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 165.1 39.37 0)
 		(unit 1)
@@ -3836,7 +4081,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "12uF"
 			(at 158.496 40.132 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3847,7 +4092,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 166.0652 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -3896,8 +4141,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 129.54 138.43 90)
+		(lib_id "Device:C")
+		(at 173.99 123.19 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3905,29 +4150,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ac6e6c6c-8592-4635-ac89-a8a12c12cb53")
-		(property "Reference" "R4"
-			(at 129.54 134.366 90)
+		(uuid "ac38f3f7-9e6f-4e3c-937a-3b5abe5713b9")
+		(property "Reference" "C26"
+			(at 176.53 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 0.889 0.889)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "0"
-			(at 129.54 135.89 90)
+		(property "Value" "4.7uF"
+			(at 176.53 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 0.889 0.889)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 129.794 137.414 90)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 174.9552 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3938,7 +4185,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 138.43 0)
+			(at 173.99 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3948,8 +4195,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
-			(at 129.54 138.43 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 173.99 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3960,22 +4207,112 @@
 			)
 		)
 		(pin "1"
-			(uuid "cdf3376e-8e89-4374-aaf1-06a8ebd5a898")
+			(uuid "2768d63c-23e3-44ca-8066-563b26aeeb9a")
 		)
 		(pin "2"
-			(uuid "42a072a3-e517-48a8-8a88-ae1eb1c73d8e")
+			(uuid "c5600353-78a4-46f0-bcdf-c3f1bbec41d1")
 		)
 		(instances
 			(project "PLL-ADF4159"
 				(path "/ccc941d0-d822-4fa9-96cd-b6048d9ff0d8/23903c4a-e3b9-4f7b-8166-b7e2038524a1"
-					(reference "R4")
+					(reference "C26")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LT3045EMSE_PBF:LT3045EMSE_PBF")
+		(lib_id "ADP150AUJZ_1.8V_5_leads:ADP150AUJZ-1.8-R7")
+		(at 104.14 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "aefe10a5-bd07-4d6b-9b47-aceb6478ab93")
+		(property "Reference" "U4"
+			(at 132.08 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Value" "ADP150AUJZ-1.8-R7"
+			(at 132.08 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "ADP150-1V8:UJ_5_ADI-L"
+			(at 104.14 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADP150.pdf"
+			(at 104.14 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "a9782d5c-c325-4bdc-861d-910217ff9a80")
+		)
+		(pin "2"
+			(uuid "278337b1-b22f-4872-9110-ee082e1149a2")
+		)
+		(pin "5"
+			(uuid "23d05698-9488-47c9-87e4-21951313a47a")
+		)
+		(pin "1"
+			(uuid "876a1eab-9200-4544-8753-f918082b4b00")
+		)
+		(pin "4"
+			(uuid "76088f62-ecf2-490f-9941-989dd581278b")
+		)
+		(instances
+			(project "PLL-ADF4159"
+				(path "/ccc941d0-d822-4fa9-96cd-b6048d9ff0d8/23903c4a-e3b9-4f7b-8166-b7e2038524a1"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LT3045IMSE_PBF:LT3045IMSE_PBF")
 		(at 123.19 41.91 0)
 		(unit 1)
 		(body_style 1)
@@ -3985,7 +4322,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b425fe62-4021-4122-9bfe-d8a6bd6df654")
+		(uuid "c0e50902-f04b-467c-9211-469c14cf8185")
 		(property "Reference" "U1"
 			(at 123.19 24.13 0)
 			(show_name no)
@@ -3996,7 +4333,7 @@
 				)
 			)
 		)
-		(property "Value" "LT3045EMSE_PBF_5.5V"
+		(property "Value" "LT3045IMSE_PBF"
 			(at 123.19 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4006,7 +4343,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LT3045EMSE_PBF:SOP65P490X110-13N"
+		(property "Footprint" "LT3045EMSE-5V5:MSOP12_MSE_ADI-L"
 			(at 123.19 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -4018,7 +4355,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/lt3045.pdf"
 			(at 123.19 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -4029,7 +4366,7 @@
 				)
 			)
 		)
-		(property "Description" "20V, 500mA, Ultralow Noise, Ultrahigh PSRR Linear Regulator"
+		(property "Description" "Linear Voltage Regulator IC Positive Programmable 1 Output  500mA 12-MSOP-EP"
 			(at 123.19 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -4089,7 +4426,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/LT3045EMSE%23PBF/Analog+Devices/view-part/?ref=eda"
+		(property "Check_prices" "https://www.snapeda.com/parts/LT3045IMSE%23PBF/Analog+Devices/view-part/?ref=eda"
 			(at 123.19 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -4125,7 +4462,7 @@
 				(justify bottom)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LT3045EMSE%23PBF/Analog+Devices/view-part/?ref=snap"
+		(property "DUPLICATE" "LT3045HMSE#PBF-,-LT3045EMSE#WPBF-,-LT3045IMSE#WPBF-,-LT3045HMSE#WPBF-,-LT3045EMSE#TRPBF-,-LT3045IMSE#TRPBF-,-LT3045HMSE#TRPBF-,-LT3045EMSE#WTRPBF-,-LT3045IMSE#WTRPBF-,-LT3045HMSE#WTRPBF"
 			(at 123.19 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -4137,7 +4474,31 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "LT3045EMSE#PBF"
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LT3045IMSE%23PBF/Analog+Devices/view-part/?ref=snap"
+			(at 123.19 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "LT3045IMSE#PBF"
+			(at 123.19 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=870617&manufacturer=Analog Devices&part_name=LT3045IMSE#PBF&search_term=lt3045"
 			(at 123.19 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -4173,44 +4534,44 @@
 				(justify bottom)
 			)
 		)
-		(pin "1"
-			(uuid "65d6cc41-c795-498d-a552-6e51106fa6b1")
-		)
-		(pin "2"
-			(uuid "a6313d35-a476-4869-91e2-1ad164c7fcd3")
-		)
-		(pin "6"
-			(uuid "546c2959-b688-4768-931a-38c0da253ea5")
-		)
-		(pin "8"
-			(uuid "451d447b-24e0-4117-916d-ea18b4855525")
-		)
-		(pin "3"
-			(uuid "07436708-474d-4a57-b160-fb1d9351c15c")
-		)
-		(pin "5"
-			(uuid "295d5050-1f50-44c5-91d2-866e554b3cca")
-		)
 		(pin "7"
-			(uuid "93286e7d-462a-487c-b226-6d7ac49a9c20")
-		)
-		(pin "9"
-			(uuid "4f111241-66e1-4a26-9cfd-8f6b347da8b7")
-		)
-		(pin "4"
-			(uuid "d5e6de15-0a75-4f63-bbda-514d646caf3b")
+			(uuid "5b92dcad-e7ad-43fa-81cb-566fd3f6bd2a")
 		)
 		(pin "10"
-			(uuid "bfa09187-76a9-4176-9484-8acc50c0d518")
+			(uuid "0acc0647-b5fe-48f5-83e2-076ab5a27512")
 		)
 		(pin "11"
-			(uuid "960d0480-3d24-46b4-9e6e-7e3d894d41fb")
+			(uuid "292025dc-0d76-4d4a-8505-1dea3c452358")
 		)
 		(pin "12"
-			(uuid "ac3461a3-220a-4c01-9645-31d2ecc40620")
+			(uuid "b7065db1-19e3-487f-b02e-b09501262d09")
 		)
-		(pin "13"
-			(uuid "20b14bb3-3a06-40ba-94ce-6b49c5dc82b3")
+		(pin "9"
+			(uuid "471fc4ba-088d-4d97-b1a6-c9d3f08a617d")
+		)
+		(pin "2"
+			(uuid "7a0489da-e7c1-4259-b73b-14d815aafb15")
+		)
+		(pin "6"
+			(uuid "ed78274f-318f-45bf-831f-77ee2a1859a5")
+		)
+		(pin "1"
+			(uuid "6f3f14fc-6871-4fb2-9bfc-c19e3459a600")
+		)
+		(pin "4"
+			(uuid "a4e23e06-c3fc-416e-8a78-512fa71dc15b")
+		)
+		(pin "3"
+			(uuid "e56cc861-7e48-41fc-ac0e-14580f461264")
+		)
+		(pin "5"
+			(uuid "beb24d28-c854-4d2b-9dcd-d2fc3cba14fd")
+		)
+		(pin "8"
+			(uuid "e271d61a-d016-4dca-a052-99d86c989b4a")
+		)
+		(pin "EPAD"
+			(uuid "e5537506-8ee2-462b-8307-43bd82ab7f1c")
 		)
 		(instances
 			(project "PLL-ADF4159"
@@ -4222,8 +4583,8 @@
 		)
 	)
 	(symbol
-		(lib_id "ADP150AUJZ_1.8V_5_leads:ADP150AUJZ-1.8-R7")
-		(at 104.14 156.21 0)
+		(lib_id "Device:C")
+		(at 176.53 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4231,53 +4592,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ca733828-5080-49e7-ac6e-09c15229b280")
-		(property "Reference" "U4"
-			(at 132.588 147.32 0)
+		(uuid "caf3b39d-cf30-4cb8-b0e9-4e4779314387")
+		(property "Reference" "C25"
+			(at 180.34 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 0.889 0.889)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "ADP150AUJZ-1.8-R7"
-			(at 132.588 149.606 0)
+		(property "Value" "4.7uF"
+			(at 180.34 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 0.889 0.889)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "ADP150AUJZ_1.8V_5_leads:UJ_5_ADI-M"
-			(at 104.14 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADP150.pdf"
-			(at 104.14 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 104.14 156.21 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 177.4952 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4287,205 +4626,38 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "1f9998e3-1a1f-4759-a8f7-7e04e222709c")
+		(property "Datasheet" ""
+			(at 176.53 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "3"
-			(uuid "50ddf74e-31c5-4dbd-baa9-e7c44415f1d5")
-		)
-		(pin "5"
-			(uuid "302aa385-2b74-4816-8c78-600f5869060d")
+		(property "Description" "Unpolarized capacitor"
+			(at 176.53 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "7e66352a-e54d-4e3a-bfd0-b6fbe1587747")
+			(uuid "4ff997cc-e4fd-48fd-b5de-8f8404f11722")
 		)
 		(pin "2"
-			(uuid "2b61d7c2-5286-4d93-a15e-a13b8315183f")
+			(uuid "bfaf5ec8-2c74-4c79-8cab-480380fea42c")
 		)
 		(instances
 			(project "PLL-ADF4159"
 				(path "/ccc941d0-d822-4fa9-96cd-b6048d9ff0d8/23903c4a-e3b9-4f7b-8166-b7e2038524a1"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ADP150AUJZ_3.3V_5_leads:ADP150AUJZ-3.3-R7")
-		(at 104.14 82.55 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ce780a58-033d-4ee4-830c-9faf25eeefc3")
-		(property "Reference" "U2"
-			(at 132.08 74.168 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Value" "ADP150AUJZ-3.3-R7"
-			(at 132.08 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Footprint" "ADP150AUJZ_3.3V_5_leads:UJ_5_ADI-M"
-			(at 104.14 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADP150.pdf"
-			(at 104.14 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 104.14 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "363756cd-480a-45e4-8975-4fc3246b99c0")
-		)
-		(pin "3"
-			(uuid "9c019025-8659-45fc-995d-5e5a1399ffb1")
-		)
-		(pin "1"
-			(uuid "00ed2891-1515-441b-a407-2b05de36d6cd")
-		)
-		(pin "4"
-			(uuid "d45d3f9b-eb9b-45ad-a003-349a4ebd675a")
-		)
-		(pin "2"
-			(uuid "d18e9d0a-8dac-4980-95a8-5932f7299b55")
-		)
-		(instances
-			(project "PLL-ADF4159"
-				(path "/ccc941d0-d822-4fa9-96cd-b6048d9ff0d8/23903c4a-e3b9-4f7b-8166-b7e2038524a1"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ADP150AUJZ_5_leads:ADP150AUJZ-3.0-R7")
-		(at 102.87 118.11 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "dd0ab926-7c9a-466b-910b-79fcabfb6ee5")
-		(property "Reference" "U3"
-			(at 130.81 109.728 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Value" "ADP150AUJZ-3.0-R7"
-			(at 130.556 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Footprint" "ADP150AUJZ_3.0V_5_leads:UJ_5_ADI-M"
-			(at 102.87 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADP150.pdf"
-			(at 102.87 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 102.87 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "4d0e4288-6d57-4947-bc06-5240746a146e")
-		)
-		(pin "5"
-			(uuid "a72ee356-fcaa-404b-b4da-cbb3617aefab")
-		)
-		(pin "2"
-			(uuid "cf69c393-9dd8-4d26-a0f1-a514951fb857")
-		)
-		(pin "1"
-			(uuid "f72140e5-abc2-4871-ad85-00ce83e7c87f")
-		)
-		(pin "3"
-			(uuid "813fafd5-7737-46f6-9c7d-f3d747d8cb91")
-		)
-		(instances
-			(project "PLL-ADF4159"
-				(path "/ccc941d0-d822-4fa9-96cd-b6048d9ff0d8/23903c4a-e3b9-4f7b-8166-b7e2038524a1"
-					(reference "U3")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -4569,8 +4741,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 132.08 102.87 90)
+		(lib_id "Device:C")
+		(at 172.72 161.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4578,29 +4750,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f3c68f9f-613c-4cc2-a241-5fc0a74b1269")
-		(property "Reference" "R6"
-			(at 132.08 98.806 90)
+		(uuid "f43ddb39-fa8a-43a8-bc5b-7b38f9cb22e2")
+		(property "Reference" "C27"
+			(at 176.53 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 0.889 0.889)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "0"
-			(at 132.08 100.33 90)
+		(property "Value" "4.7uF"
+			(at 176.53 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 0.889 0.889)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 132.334 101.854 90)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 173.6852 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4611,7 +4785,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 102.87 0)
+			(at 172.72 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4621,8 +4795,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
-			(at 132.08 102.87 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 172.72 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4633,15 +4807,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "90baf8c1-9e89-4f9f-9eba-490ec723d1fd")
+			(uuid "181e6cd8-fa30-41dc-9c22-72a25743b3e7")
 		)
 		(pin "2"
-			(uuid "46218bf8-4c15-44e3-9859-37ac65e21974")
+			(uuid "aeff8810-70ef-404f-a427-a4ed7a4f9eac")
 		)
 		(instances
 			(project "PLL-ADF4159"
 				(path "/ccc941d0-d822-4fa9-96cd-b6048d9ff0d8/23903c4a-e3b9-4f7b-8166-b7e2038524a1"
-					(reference "R6")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -4720,6 +4894,84 @@
 			(project "PLL-ADF4159"
 				(path "/ccc941d0-d822-4fa9-96cd-b6048d9ff0d8/23903c4a-e3b9-4f7b-8166-b7e2038524a1"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 101.6 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa80506a-98a8-4691-8302-bfdbbab3867e")
+		(property "Reference" "#PWR08"
+			(at 101.6 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.6 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "70eb162a-bffd-4405-a57d-2e5eeb5364ce")
+		)
+		(instances
+			(project "PLL-ADF4159"
+				(path "/ccc941d0-d822-4fa9-96cd-b6048d9ff0d8/23903c4a-e3b9-4f7b-8166-b7e2038524a1"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
