@@ -1,0 +1,6 @@
+(version 1)
+
+(rule "RF_to_GND_clearance"
+    (condition "(A.NetClass == 'Coplanar' && B.NetName == 'GND') || (B.NetClass == 'Coplanar' && A.NetName == 'GND')")
+    (constraint clearance (min 0.254mm))
+)
