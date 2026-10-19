@@ -1995,7 +1995,7 @@
 		)
 		(uuid "3c7c0f3a-0109-4a92-ad4c-0537783e6b7f")
 	)
-	(label "+6.5V_RAW"
+	(label "+3.3V_RAW"
 		(at 139.7 55.88 270)
 		(effects
 			(font
@@ -2046,7 +2046,7 @@
 				)
 			)
 		)
-		(property "Value" "91R"
+		(property "Value" "91"
 			(at 68.834 119.634 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2056,7 +2056,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 67.056 118.364 90)
 			(hide yes)
 			(show_name no)
@@ -2463,7 +2463,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "8.6"
+		(property "Value" "150"
 			(at 254.508 138.938 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2474,7 +2474,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 253.746 138.684 90)
 			(hide yes)
 			(show_name no)
@@ -2684,10 +2684,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "8876d2c5-5e4b-494d-922d-90c01b778a9a")
 		(property "Reference" "J3"
 			(at 276.352 125.73 0)
@@ -2781,7 +2781,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "142"
+		(property "Value" "8.2"
 			(at 247.396 129.794 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2792,7 +2792,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 246.634 131.064 90)
 			(hide yes)
 			(show_name no)
@@ -2822,6 +2822,28 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C4144"
+			(at 246.38 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MFR.Part #" "RTT028R20FTH"
+			(at 246.38 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -2940,7 +2962,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "150.5"
+		(property "Value" "150"
 			(at 211.328 138.684 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2951,7 +2973,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 210.566 138.684 90)
 			(hide yes)
 			(show_name no)
@@ -2981,6 +3003,28 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C82683"
+			(at 209.55 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MFR.Part #" "CRCW0402150RFKED"
+			(at 209.55 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -3101,7 +3145,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "150.5"
+		(property "Value" "150"
 			(at 223.52 139.192 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3112,7 +3156,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 223.266 138.684 90)
 			(hide yes)
 			(show_name no)
@@ -3142,6 +3186,28 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C82683"
+			(at 222.25 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MFR.Part #" "CRCW0402150RFKED"
+			(at 222.25 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -3243,10 +3309,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "cb0b4fa1-9fbf-4399-a203-4f4ec5411c56")
 		(property "Reference" "VTUNE_1"
 			(at 185.42 151.638 0)
@@ -3337,7 +3403,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "142"
+		(property "Value" "8.2"
 			(at 260.35 130.048 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3348,7 +3414,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 259.334 131.064 90)
 			(hide yes)
 			(show_name no)
@@ -3378,6 +3444,28 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C4144"
+			(at 259.08 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MFR.Part #" "RTT028R20FTH"
+			(at 259.08 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -3418,7 +3506,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "37.4"
+		(property "Value" "39"
 			(at 217.17 129.794 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3429,7 +3517,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 216.154 131.064 90)
 			(hide yes)
 			(show_name no)
@@ -3459,6 +3547,28 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C25110"
+			(at 215.9 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MFR.Part #" "0402WGF390JTCE"
+			(at 215.9 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -3598,7 +3708,7 @@
 				(justify left top)
 			)
 		)
-		(pin "+6.5V_RAW" input
+		(pin "+3.3V_RAW" input
 			(at 139.7 69.85 90)
 			(uuid "f2f5f84d-0fd2-4600-91df-e19e39539c38")
 			(effects

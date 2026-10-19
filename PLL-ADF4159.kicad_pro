@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.0,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 2,
@@ -172,7 +172,7 @@
         "min_track_width": 0.2,
         "min_via_annular_width": 0.15,
         "min_via_diameter": 0.25,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -225,7 +225,8 @@
         0.254,
         0.320294,
         0.344678,
-        0.3487
+        0.3487,
+        0.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -666,7 +667,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.254,
+        "clearance": 0.4,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -676,7 +677,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.320294,
+        "track_width": 0.3487,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
@@ -830,6 +831,10 @@
       {
         "netclass": "Coplanar",
         "pattern": "Net-(C18-Pad2)"
+      },
+      {
+        "netclass": "Coplanar",
+        "pattern": "Net-(J3-In)"
       }
     ]
   },
@@ -837,7 +842,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../Manufacture/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -1074,6 +1079,18 @@
           "label": "Arrow Part Number",
           "name": "Arrow Part Number",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DUPLICATE",
+          "name": "DUPLICATE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Purchase-URL",
+          "name": "Purchase-URL",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -1132,7 +1149,7 @@
         "uuid": "ccc941d0-d822-4fa9-96cd-b6048d9ff0d8"
       }
     ],
-    "used_designators": "#PWR1-39,D1,R1-32,#FLG1-5,J1-2,U1-7,C1-28,XTAL1-2,FB1,CLK_DATA_LE_from_external_microcontroller1,External_VCO_RF1,SMA_For_External_REF_1,IC1",
+    "used_designators": "#PWR1-53,D1-2,R1-37,#FLG1-5,J1-2,U1-7,C1-40,XTAL1-2,FB1,CLK_DATA_LE_from_external_microcontroller1,External_VCO_RF1,SMA_For_External_REF_1,IC1-2,L1,VTUNE_2,Y1",
     "variants": []
   },
   "sheets": [

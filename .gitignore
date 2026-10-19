@@ -19,3 +19,6 @@ fp-info-cache
 # Git ignores: Kicad automatic backup files for symbol library
 
 /symbols/*.bak
+/symbols/old-component
+
+/production
